@@ -28,10 +28,6 @@ For this step, we’ll use a three-tier app (frontend, backend, and database) pr
 - **phpMyAdmin**: A web-based interface to interact with the database, accessible at [http://db.localhost](http://db.localhost).
 - **Traefik Proxy**: Routes requests appropriately, sending requests for `localhost/api/*` to the backend, requests for `localhost/*` to the frontend, and requests for `db.localhost` to phpMyAdmin, allowing access through port 80.
 
-All files can be found in this repository: 
-```bash
-git clone https://github.com/Obs3rve/three-tier-local.git
-```
 
 Use the following command to clone/download the files:
 ```bash
