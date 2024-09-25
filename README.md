@@ -1,4 +1,4 @@
-# Getting Started Todo App
+# Getting Started 
 
 This project involves building and deploying a three-tier application(todo list application from Docker) to a Minikube cluster, simulating a real-world multi-environment setup.
 
