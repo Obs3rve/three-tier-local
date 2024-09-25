@@ -17,8 +17,6 @@ Before we jump into the project, make sure you have the following installed on y
 
 ## Project 1: Deploying to Minikube
 
-### 1. Build and Containerize Your Application
-
 For this step, we’ll use a three-tier app (frontend, backend, and database) provided by Docker. Check out the official Docker documentation for a quick start: [Develop with Containers](https://docs.docker.com/get-started/introduction/develop-with-containers/). The Dockerfile is already written to containerize the app.
 
 #### What’s in Our Setup?
@@ -27,6 +25,9 @@ For this step, we’ll use a three-tier app (frontend, backend, and database) pr
 - **MySQL Database**: Stores the list of items.
 - **phpMyAdmin**: A web-based interface to interact with the database, accessible at [http://db.localhost](http://db.localhost).
 - **Traefik Proxy**: Routes requests appropriately, sending requests for `localhost/api/*` to the backend, requests for `localhost/*` to the frontend, and requests for `db.localhost` to phpMyAdmin, allowing access through port 80.
+
+### 1. Cloning Our Repo
+
 
 
 Use the following command to clone/download the files:
